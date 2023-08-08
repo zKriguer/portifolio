@@ -51,8 +51,8 @@ dependencies:
     specifier: 13.4.12
     version: 13.4.12(react-dom@18.2.0)(react@18.2.0)
   next-international:
-    specifier: ^0.7.0
-    version: 0.7.0
+    specifier: ^0.8.2
+    version: 0.8.2
   postcss:
     specifier: 8.4.27
     version: 8.4.27
@@ -2060,8 +2060,8 @@ packages:
       side-channel: 1.0.4
     dev: false
 
-  /international-types@0.7.0:
-    resolution: {integrity: sha512-k82yb9E+gxFx9YCjpX0BNK4fHjIrzviomVNtrNEiv99JTbMZB7o35RG2LtkPy4zlXZHn5HHbdCSR8ymD3k58Rw==}
+  /international-types@0.8.0:
+    resolution: {integrity: sha512-cJwagIBzMG0FTK81TABeSBU0eReIXWmvW18m/URn8ZA+GLoWIcdL43kfjArwHVmZJ1n+IFchsBj8tQLYUqmwnA==}
     dev: false
 
   /is-array-buffer@3.0.2:
@@ -2433,11 +2433,11 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: false
 
-  /next-international@0.7.0:
-    resolution: {integrity: sha512-OgAp1IAtH+Gba3VQb5r1jYDmfybMzbfKRuGJg9K0Ed7Fce2j+XxalM3xtF7itGBmuEamDQnMA1v2n9YThYxzhA==}
+  /next-international@0.8.2:
+    resolution: {integrity: sha512-mWftLiGOemnfj+XUZaK+GpfEr5HJlUm8ZThunPw8R5CCCb2lPf8P7gdiupWm/HurCAQ5XpYxka9yPOGhuxdW0Q==}
     dependencies:
       client-only: 0.0.1
-      international-types: 0.7.0
+      international-types: 0.8.0
       server-only: 0.0.1
     dev: false
 

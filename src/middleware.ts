@@ -1,11 +1,12 @@
 import { createI18nMiddleware } from "next-international/middleware";
-import { NextRequest, NextResponse } from "next/server";
+import { NextRequest } from "next/server";
+import { defaultLocale, localeList } from "@/app/locales";
 
-const I18nMiddleware = createI18nMiddleware(["en", "pt-Br"] as const, "pt-Br");
+const I18nMiddleware = createI18nMiddleware(localeList, defaultLocale, {
+  urlMappingStrategy: "rewrite",
+});
 
 export function middleware(request: NextRequest) {
-  const { pathname } = request.nextUrl;
-
   const response = I18nMiddleware(request);
 
   return response;
