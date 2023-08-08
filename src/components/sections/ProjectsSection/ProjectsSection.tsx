@@ -11,7 +11,7 @@ export const ProjectsSection = async () => {
   const repos: GitHubRepository[] = await GithubApiService(
     "https://api.github.com/users/zKriguer/repos"
   ).then((res) =>
-    res.map((repo: GitHubRepository) => {
+    res?.map((repo: GitHubRepository) => {
       if (repo != undefined && repo.topics.includes("projects")) {
         return repo != undefined && repo;
       }

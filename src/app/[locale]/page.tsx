@@ -2,8 +2,6 @@ import { ContactSection } from "@/components/sections/ContactSection/ContactSect
 import { HomeSection } from "@/components/sections/HomeSection/HomeSection";
 import { ProjectsSection } from "@/components/sections/ProjectsSection/ProjectsSection";
 import { SkillsSection } from "@/components/sections/SkillsSection/SkillsSection";
-import { Skeleton } from "@/components/ui/skeleton";
-import { Suspense } from "react";
 
 export default function Home() {
   return (
