@@ -24,7 +24,7 @@ export const ProjectCard = ({ repo }: Props) => {
 
       {!repo.topics.includes("backend") ? (
         <Image
-          src={`/assets/images/${repo.name}.png`}
+          src={`/assets/images/${repo.name.toLowerCase()}.png`}
           alt={"PROJECT-ICON"}
           width={400}
           height={400}
