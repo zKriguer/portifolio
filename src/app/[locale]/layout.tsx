@@ -1,5 +1,4 @@
 import "@/app/globals.css";
-import type { Metadata } from "next";
 
 import { Plus_Jakarta_Sans } from "next/font/google";
 
@@ -49,11 +48,6 @@ const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
   display: "swap",
 });
-
-export const metadata: Metadata = {
-  title: "Kriguer's Portifolio",
-  description: "This is my portifolio, and it tells about me and my career.",
-};
 
 export default function RootLayout({
   children,
