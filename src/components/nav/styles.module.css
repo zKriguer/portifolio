@@ -1,0 +1,7 @@
+.navItem {
+  @apply hover:bg-brand-primary transition duration-500 ease-in-out cursor-pointer rounded-lg hover:border border border-transparent hover:border-brand-primary px-4 hover:scale-125;
+}
+
+.tooltip {
+  @apply !bg-brand-primary !text-white !shadow-3xl !shadow-brand-secondary !rounded-xl !px-2 !text-base !min-w-[120px] !bg-clip-padding !backdrop-filter !backdrop-blur-sm !bg-opacity-90;
+}

@@ -1,0 +1,21 @@
+.swiper {
+  @apply w-[300px] h-fit lg:w-[400px] lg:h-[400px]  2xl:w-[400px] 2xl:h-[400px];
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.description {
+  @apply transform  -translate-x-5 -translate-y-5;
+}
+
+.description2 {
+  @apply transform -translate-x-8 -translate-y-8;
+}

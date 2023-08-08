@@ -1,0 +1,3 @@
+.link {
+  @apply bg-brand-secondary rounded-lg px-2 p-2 flex items-center justify-center gap-2 hover:bg-brand-primary text-start;
+}

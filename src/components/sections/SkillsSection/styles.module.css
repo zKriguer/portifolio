@@ -1,0 +1,7 @@
+.position1 {
+  @apply left-2 top-2 transition-all duration-200 ease-in;
+}
+
+.position2 {
+  @apply left-0 top-0 transition-all duration-200 ease-in bg-brand-primary;
+}

@@ -1,0 +1,15 @@
+.base {
+  @apply bg-white w-fit text-black px-4 py-1 rounded-lg shadow-md shadow-black text-lg hover:bg-brand-secondary hover:text-white flex justify-center items-center;
+}
+
+.primary {
+  @apply bg-brand-background/30 text-white px-4 rounded-lg shadow-md shadow-black text-lg hover:text-white;
+}
+
+.error {
+  @apply bg-red-500 text-white px-4 rounded-lg shadow-md shadow-black text-lg hover:bg-red-600 hover:text-white;
+}
+
+.secondary {
+  @apply bg-brand-highlight text-white px-4 rounded-lg shadow-md shadow-black text-lg hover:bg-brand-secondary/80 hover:text-white;
+}
