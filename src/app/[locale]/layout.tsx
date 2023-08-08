@@ -34,7 +34,7 @@ export const generateMetadata: GenerateMetadata = () => {
         "This is my portifolio, and it tells about me and my career.",
       images: [
         {
-          url: "kriguer.vercel.app/assets/images/og.png",
+          url: "https://kriguer.vercel.app/assets/images/og.png",
           width: 1280,
           height: 640,
           alt: "Kriguer's Portifolio",
