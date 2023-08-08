@@ -5,6 +5,9 @@ import { Tecnologies } from "./Tecnologies";
 import { timeExperience } from "@/lib/timeExperience";
 import Button from "@/components/button/Button";
 import { YoutubeButton } from "./YoutubeButton";
+import Link from "next/link";
+import clsx from "clsx";
+import { Github } from "lucide-react";
 
 export const HomeSection = async () => {
   const t = await getScopedI18n("home");
@@ -23,7 +26,25 @@ export const HomeSection = async () => {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
       />
-      <YoutubeButton videoUrl="https://www.youtube.com/watch?v=N8cWxZbCGo0&embeds_referring_euri=http%3A%2F%2Flocalhost%3A3000%2F&feature=emb_imp_woyt" />
+      <div className="flex gap-4">
+        <Button
+          primary
+          className={
+            "!bg-white hover:!bg-brand-primary hover:!text-white !text-black !font-bold"
+          }
+        >
+          <Link
+            href={"https://github.com/zKriguer/portifolio"}
+            className="flex items-center"
+            target="_blank"
+          >
+            GitHub
+            <Github className={clsx("ml-2")} />
+          </Link>
+        </Button>
+        <YoutubeButton videoUrl="https://www.youtube.com/watch?v=N8cWxZbCGo0&embeds_referring_euri=http%3A%2F%2Flocalhost%3A3000%2F&feature=emb_imp_woyt" />
+      </div>
+
       <div className="flex flex-col gap-16 items-center">
         <div className="text-base md:text-xl text-justify md:text-center gap-4 flex flex-col 2xl:flex-row items-start">
           <h1 className="text-xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-brand-highlight via-brand-pink to-brand-orange">
