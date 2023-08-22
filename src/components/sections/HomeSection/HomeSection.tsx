@@ -46,7 +46,7 @@ export const HomeSection = async () => {
       </div>
 
       <div className="flex flex-col gap-16 items-center">
-        <div className="text-base md:text-xl text-justify md:text-center gap-4 flex flex-col 2xl:flex-row items-start 2xl:items-end">
+        <div className="text-base md:text-xl text-justify md:text-center gap-4 flex flex-col 2xl:flex-row items-center">
           <h1 className="text-xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-brand-highlight via-brand-pink to-brand-orange">
             {t("greeting")}
           </h1>
