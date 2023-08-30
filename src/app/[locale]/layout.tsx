@@ -28,7 +28,7 @@ export const generateMetadata: GenerateMetadata = () => {
       type: "website",
       locale: "en",
       siteName: "Kriguer's Portifolio",
-      url: "https://kriguer.vercel.app/assets/images/og.png",
+      url: "/assets/images/og.png",
       title: "Kriguer's Portifolio",
       description:
         "This is my portifolio, and it tells about me and my career.",
