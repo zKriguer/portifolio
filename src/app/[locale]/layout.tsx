@@ -28,13 +28,13 @@ export const generateMetadata: GenerateMetadata = () => {
       type: "website",
       locale: "en",
       siteName: "Kriguer's Portifolio",
-      url: "/assets/images/og.png",
+      url: "https://kriguer.vercel.app/",
       title: "Kriguer's Portifolio",
       description:
         "This is my portifolio, and it tells about me and my career.",
       images: [
         {
-          url: "https://kriguer.vercel.app/",
+          url: "/assets/images/og.png",
           width: 1280,
           height: 720,
           alt: "Kriguer's Portifolio",
