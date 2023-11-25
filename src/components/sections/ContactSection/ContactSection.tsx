@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import { CopyButton } from "@/components/button/CopyButton";
-import { Linkedin, Twitter } from "lucide-react";
+import { Linkedin, Send, Twitter } from "lucide-react";
 import styles from "./styles.module.css";
 import { getScopedI18n } from "@/app/locales/server";
 
@@ -19,6 +19,12 @@ export const ContactSection = async () => {
             className="h-full"
             valueToCopy={"kriguerfreitas2020@gmail.com"}
           />
+          <Link
+            href="mailto:kriguerfreitas2020@gmail.com"
+            className="bg-brand-highlight h-full rounded-lg text-center select-none hover:bg-brand-primary items-center flex justify-center p-4"
+          >
+            <Send className="h-3.5 w-3.5 " />
+          </Link>
         </div>
 
         <Link

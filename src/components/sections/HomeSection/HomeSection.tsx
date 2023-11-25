@@ -9,6 +9,9 @@ import Link from "next/link";
 import clsx from "clsx";
 import { Github } from "lucide-react";
 
+import Vimeo from "@u-wave/react-vimeo";
+import { VimeoContainer } from "./VimeoContainer";
+
 export const HomeSection = async () => {
   const t = await getScopedI18n("home");
   const time = await getScopedI18n("home.timeExperience");
@@ -19,13 +22,8 @@ export const HomeSection = async () => {
       id="home"
       className="h-screen w-full lg:p-12 flex flex-col justify-center items-center gap-8"
     >
-      <iframe
-        className="w-full h-1/2 md:w-1/2 md:h-1/2"
-        src="https://www.youtube.com/embed/N8cWxZbCGo0"
-        title="YouTube video player"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowFullScreen
-      />
+      <VimeoContainer />
+
       <div className="flex gap-4">
         <Button
           primary
